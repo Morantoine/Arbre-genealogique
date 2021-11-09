@@ -1,2 +1,3 @@
 #!/usr/bin/bash
+./add_colors.py
 dot graph.dot -T jpg -o graph.jpg

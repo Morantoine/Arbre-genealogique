@@ -1,24 +1,34 @@
+#!/usr/bin/env python
+
 def get_liste_noms():
+    """
+        Lit la liste des personnes entre les
+        ----
+        ----
+        dans l'en-tête
+    """
     file = open("graph.dot", 'r+')
-    L = []
+    liste_noms = []
     get_in = False
     for line in file.readlines():
         if get_in:
-            L.append(line.rstrip("\n"))
+            liste_noms.append(line.rstrip("\n"))
         if "----" in line:
             if not get_in:
                 get_in = True
             else:
                 break
-    L.pop()
+    liste_noms.pop()
     file.close()
-    return(L)
+    return liste_noms
 
 
 def insert_line(string):
+    """Insère string à l'avant-dernière ligne"""
     with open("graph.dot", "r") as f:
         contents = f.readlines()
 
+    num_lines = sum(1 for _ in open('graph.dot'))
     contents.insert(num_lines - 1, string + "\n")
 
     with open("graph.dot", "w") as f:
@@ -26,7 +36,18 @@ def insert_line(string):
         f.write(contents)
 
 
+def delete_old_nodes():
+    with open("graph.dot", "r") as graph:
+        lines = graph.readlines()
+
+    with open("graph.dot", "w") as graph:
+        for line in lines:
+            if not "fillcolor" in line:
+                graph.write(line)
+
+
 def check_if_node(string):
+    """Vérifie si une coloration existe déjà pour la personne"""
     file = open("graph.dot", 'r+')
     for line in file.readlines():
         if string in line:
@@ -37,7 +58,8 @@ def check_if_node(string):
     return False
 
 
-def new_node(nom):
+def new_node(nom, color_list):
+    """Crée le node avec les bonnes couleurs"""
     line = '    "{}"'.format(nom)
     exceptions = [("An'art", "Anart")]
     for exception, replacement in exceptions:
@@ -46,77 +68,64 @@ def new_node(nom):
     for exception, replacement in exceptions:
         nom.replace(replacement, exception)
     nom = nom.split()
-    line += '[fillcolor="{}"]'.format(couleur(nom[1:]))
+    line += '[fillcolor="{}"]'.format(couleur(nom[1:], color_list))
     return(line)
 
 
-def dic_init():
-    color_dico = {}
-    color_dico["puls"] = "#a300a3"
-    color_dico["storm"] = "#a300a3"
-    color_dico["valh"] = "#00BFFF"
-    color_dico["chap"] = "#00BFFF"
-    color_dico["valar"] = "#4b488c"
-    color_dico["bluff"] = "#4b488c"
-    color_dico["dice"] = "#ff4d5c"
-    color_dico["diab"] = "#ff4d5c"
-    color_dico["lord"] = "#ff4d5c"
-    color_dico["an'art"] = "#ff4d5c"
-    color_dico["abso"] = "#5d30ff"
-    color_dico["ghib"] = "#5d30ff"
-    color_dico["enig"] = "#97d9f0"
-    color_dico["jack"] = "#ff9654"
-    color_dico["wiz"] = "#afa4ce"
-    color_dico["jones"] = "#edc9af"
-    color_dico["clint"] = "#c28469"
-    color_dico["koh"] = "#f2be00"
-    color_dico["chill"] = "#f2be00"
-    color_dico["horn"] = "#f2be00"
-    color_dico["atlas"] = "ffffff"
-    color_dico["troop"] = "ffffff"
+def lists_init():
+    """
+        C'est ici que vous devez rajouter le mot-clef à chercher
+        dans les noms (pratique pour les noms abregés) 
+        avec la couleur correspondante
+    """
+    color_list = []
+    color_list.append(("puls", "#a300a3"))
+    color_list.append(("storm", "#a300a3"))
+    color_list.append(("valh", "#00BFFF"))
+    color_list.append(("chap", "#00BFFF"))
+    color_list.append(("valar", "#4b488c"))
+    color_list.append(("bluff", "#4b488c"))
+    color_list.append(("dice", "#ff4d5c"))
+    color_list.append(("diab", "#ff4d5c"))
+    color_list.append(("lord", "#ff4d5c"))
+    color_list.append(("an'art", "#ff4d5c"))
+    color_list.append(("abso", "#5d30ff"))
+    color_list.append(("ghib", "#5d30ff"))
+    color_list.append(("enig", "#97d9f0"))
+    color_list.append(("jack", "#ff9654"))
+    color_list.append(("wiz", "#afa4ce"))
+    color_list.append(("jones", "#edc9af"))
+    color_list.append(("clint", "#c28469"))
+    color_list.append(("koh", "#f2be00"))
+    color_list.append(("chill", "#f2be00"))
+    color_list.append(("horn", "#f2be00"))
+    color_list.append(("atlas", "#ffffff"))
+    color_list.append(("troop", "#ffffff"))
+    return(color_list)
 
 
-def couleur(liste_noms):
+def couleur(liste_noms, color_list):
+    """
+        Renvoie le texte correspondant au dégradé de la personne
+    """
     color = ""
-    for liste in liste_noms:
-        liste = liste.lower()
-        if "puls" in liste or "storm" in liste:
-            color += "#a300a3:"
-        if "valh" in liste or "chap" in liste:
-            color += "#00BFFF:"
-        if "valar" in liste or "bluff" in liste:
-            color += "#4b488c:"
-        if "dice" in liste or "lord" in liste or "diab" in liste or "an'art" in liste:
-            color += "#ff4d5c:"
-        if "abso" in liste or "ghib" in liste:
-            color += "#5d30ff:"
-        if "enig" in liste:
-            color += "#97d9f0:"
-        if "jack" in liste:
-            color += "#ff9654:"
-        if "wiz" in liste:
-            color += "#afa4ce:"
-        if "jones" in liste:
-            color += "#edc9af:"
-        if "clint" in liste:
-            color += "#c28469:"
-        if "koh" in liste or "chill" in liste or "horn" in liste:
-            color += "#f2be00:"
-        if "atlas" in liste or "troop" in liste:
-            color += "#ffffff:"
+    for nom in liste_noms:
+        nom = nom.lower()
+        for (liste, color_hex) in color_list:
+            if liste in nom:
+                color += color_hex + ":"
+
     if len(color) > 0:
         color = color[:-1]
     return color
 
 
-num_lines = sum(1 for _ in open('graph.dot'))
-
-
 def main():
-    dic_init()
+    delete_old_nodes()
+    color_list = lists_init()
     for nom in get_liste_noms():
         if not check_if_node(nom):
-            insert_line(new_node(nom))
+            insert_line(new_node(nom, color_list))
 
 
 if __name__ == "__main__":

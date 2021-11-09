@@ -58,10 +58,9 @@ def check_if_node(string):
     return False
 
 
-def new_node(nom, color_list):
+def new_node(nom, color_list, exceptions):
     """Crée le node avec les bonnes couleurs"""
     line = '    "{}"'.format(nom)
-    exceptions = [("An'art", "Anart")]
     for exception, replacement in exceptions:
         nom.replace(exception, replacement)
     nom.replace("'", " ")
@@ -101,7 +100,13 @@ def lists_init():
     color_list.append(("horn", "#f2be00"))
     color_list.append(("atlas", "#ffffff"))
     color_list.append(("troop", "#ffffff"))
-    return(color_list)
+    # Ici vous pouvez rajouter des exceptions (par défaut les '
+    # sont considérés comme des espaces entre 2 noms, il faut des fois
+    # rajouter des exceptions, An'art donnerait An et Art sinon)
+    # PS : Anart est arbitraire, il doit simplement être unique
+    exceptions = []
+    exceptions.append(("An'art", "Anart"))
+    return(color_list, exceptions)
 
 
 def couleur(liste_noms, color_list):
@@ -122,10 +127,10 @@ def couleur(liste_noms, color_list):
 
 def main():
     delete_old_nodes()
-    color_list = lists_init()
+    color_list, exceptions = lists_init()
     for nom in get_liste_noms():
         if not check_if_node(nom):
-            insert_line(new_node(nom, color_list))
+            insert_line(new_node(nom, color_list, exceptions))
 
 
 if __name__ == "__main__":

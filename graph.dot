@@ -12,6 +12,7 @@ SI POSSIBLE POUR RACCODER, SINON RAJOUTEZ LES)
 
 (POUR LES LISTÉS,  METTEZ LE NOM DE LISTE AUSSI SVP) :
 ----
+Ahmed Dragons
 Alice Diabo
 Albin Bluff
 Alexandre Spark
@@ -23,10 +24,11 @@ Antoine GC Lord
 Antoine Lord Murat
 Antoine Valhall'Art
 Antonin Atlas
-Arthur 
+Arthur
 Audrey Pulsar
+Ayoub Horn
 Baptiste Koh
-Barranco
+Barranco Jones
 Barzola Bluff
 Bastien Apo
 Ben Spark
@@ -37,8 +39,11 @@ Carla Jones
 Céléna
 Charlie Lord-Clint
 Choko Clint
+Christophe Enigm'Art
+Clément Enigm'Art
 Clovis
 Corentin Clint
+Cyriane
 Daniel Valar
 Dylan Lord-Clint
 Elias Pulsar
@@ -56,7 +61,9 @@ Hugo Abso
 Hugo Bluff
 Isabelle Diabo / SurréArtList
 Jean Valar
+Jeanne Clint
 Jeanne Jack
+Jérémy Pulsar
 Johyn Enigm'Abso
 Jorge
 Joséphine Enigm'Art
@@ -68,6 +75,7 @@ Léo Atlas
 Léo Mascotte
 Leopold Pulsar
 Logan
+Lubin Pulsar
 Lucas Chap
 Lucas
 Lucas Bluff
@@ -75,6 +83,7 @@ Lucie Lord-Clint
 Lucille Lord-Clint
 Manon Horn
 Manon Storm
+Marie Wagner
 Mathieu Enigm'Abso
 Mathilde Valhall'Art
 Matisse Lord
@@ -91,11 +100,13 @@ Pauline Spark
 Paul Trooper Moune
 Pierre Abso
 Pierre Jack
+Quentin Enigm'Art
 Quentin Valhall'Art
 Rémi Lord
 Robin Horn
 Sam Ghib'n'Bluff
 Sarah Wiz
+Sébastien Ars'n
 Sébastien Legends
 Séréna Enigm'Art
 Simon Atlas
@@ -106,9 +117,12 @@ Thomas Kerboul Trooper
 Thomas Malaf Trooper
 Thomas NL Bluff
 Thomas Valhall'Art
+Timothée Stan'Pulsar
 Tiphaine Enigm'Art
+Titouan Horn
 Tom Valhall'Art
 Ugo Tyranno
+Valentin Enigm'Art
 Victor Abso
 Vincent Pulsar
 Vincent Valhall'Art
@@ -117,10 +131,11 @@ Virgile
 Vivien Clint
 Yoann Bluff
 Yanis Pulsar
-Zoé
+Yohann Horn
+Zoé Desprez
 
 ----
-Jülich######################
+######################
 
 Ajoutez vos fillotages ici (je les commiterai dans 2 ans) :
 */
@@ -129,27 +144,27 @@ digraph G {
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"]; 
 "Antoine Valhall'Art" -> {Jorge, Logan}
-"Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso"}
+"Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {Virgile, Lucas, Logan}
 "Nathan Valhall'Art" -> {Arthur, Hippolyte}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis"} 
-"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco", "Mathieu Enigm'Abso"}
+"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso"}
 "Guilhaume Lord" -> {"Carla Jones", "Baptiste Koh", "Victor Abso", "Léa Abso", "Joséphine Enigm'Art", "Juliette Koh"}
 "Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"} 
 "Isabelle Diabo / SurréArtList" -> {"Thomas Malaf Trooper", "Théophile Trooper", "Nathan Trooper"}
 "Tiphaine Enigm'Art" -> {"Elias Pulsar", "Leopold Pulsar", "Sébastien Legends", "Élodie Horn"}
 "Elias Pulsar" -> Olivier
 Olivier -> Camille
-"Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art"}
+"Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art", "Mohammed Enigm'Art"}
 "Alex Enigm'Abso" -> {"Maxime Pulsar"}
 "Vincent Pulsar" -> {"Nathan Valhall'Art", "Thomas Valhall'Art", "Mathilde Valhall'Art", "Anna Horn"}
 "Théophile Trooper" ->{"Alexandre Spark", "Lucas Bluff","Sam Ghib'n'Bluff","Barzola Bluff", "Yoann Bluff"}
 "Yoann Bluff" -> {"Guilhaume Lord", "Nounours Atlas", "Vivien Clint", "Guillaume Atlas"}
 "Hugo Bluff" -> {"Antoine GC Lord", "Antoine Lord Murat", "Gloria Lord", "Matisse Lord", "Vincent Aero"}
 "Thomas Malaf Trooper" -> {"Milou Bluff Mascotte", "Barzola Bluff"}
-"Nathan Trooper" -> {"Barzola Bluff", "Albin Bluff", "Thomas NL Bluff", "Hugo Bluff", "Pauline Spark"}
+"Nathan Trooper" ->{"Barzola Bluff", "Albin Bluff", "Thomas NL Bluff", "Hugo Bluff", "Pauline Spark"}
 "Mathieu Enigm'Abso" -> {"Maxime Pulsar","Yanis Pulsar","Leopold Pulsar","Vincent Pulsar"}
 "Choko Clint" -> {"Tiphaine Enigm'Art", "Vincent Pulsar", "Morgane An'art", "Maxime Pulsar"}
 "Léo Mascotte" -> "Milou Bluff Mascotte"
@@ -167,13 +182,23 @@ Olivier -> Camille
 "Lucille Lord-Clint" -> {"Séréna Enigm'Art", "Céléna"}
 "Audrey Pulsar" -> {"Manon Horn"}
 "Julien Camus Trooper" -> {"Alexandre Spark", "Fanny Spark"}
-"Sam Ghib'n'Bluff" -> {"Guilhaume Lord", "Charlie Lord-Clint", "Choko Clint", "Rémi Lord", "Lucie Lord-Clint", "Dylan Lord-Clint"}
+"Sam Ghib'n'Bluff" -> {"Guilhaume Lord", "Charlie Lord-Clint", "Choko Clint", "Rémi Lord", "Lucie Lord-Clint", "Dylan Lord-Clint", "Jeanne Clint"}
 "Gabriel" -> {"Sarah Wiz", "Guillaume Wiz"}
 "Ben Spark" -> {"Manon Storm", "Antonin Atlas", "Fabrice Atlas", "Charlie Lord-Clint", "Thibaud"}
 "Morgane An'art" -> {"Tom Valhall'Art", "Thomas Valhall'Art", "Gaspard Valhall'Art"}
 "Thomas Kerboul Trooper" -> {"Thomas NL Bluff"}
-"Guillaume Wiz" -> {"Mathieu Enigm'Abso", "Mohammed Enigm'Art", "..."}
-"Vincent Valhall'Art" -> {Flavien, Zoé}
+"Guillaume Wiz" -> {"Mathieu Enigm'Abso", "Mohammed Enigm'Art", "Céléna", "Tiphaine Enigm'Art", "Yanis Pulsar", "Valentin Enigm'Art", "Séréna Enigm'Art", "Quentin Enigm'Art", "Sébastien Ars'n"}
+"Vincent Valhall'Art" -> {Flavien, "Zoé Desprez"}
+"Ahmed Dragons" -> {Cyriane}
+"Charlie Lord-Clint" -> {"Céléna", "Clément Enigm'Art", "Christophe Enigm'Art"}
+"Jeanne Clint" -> {"Séréna Enigm'Art"}
+"Mohammed Enigm'Art" -> {"Jérémy Pulsar"}
+"Vivien Clint" -> {"Joséphine Enigm'Art", "Barranco Jones"}
+"Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
+"Séréna Enigm'Art" -> {"Jérémy Pulsar"}
+"Clément Enigm'Art" -> {"Jérémy Pulsar"}
+"Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoé Desprez", "Marie Wagner"}
+    "Ahmed Dragons"[fillcolor="#3700ff"]
     "Alice Diabo"[fillcolor="#ff4d5c"]
     "Albin Bluff"[fillcolor="#4b488c"]
     "Alexandre Spark"[fillcolor=""]
@@ -185,10 +210,11 @@ Olivier -> Camille
     "Antoine Lord Murat"[fillcolor="#ff4d5c"]
     "Antoine Valhall'Art"[fillcolor="#00BFFF"]
     "Antonin Atlas"[fillcolor="#ffffff"]
-    "Arthur "[fillcolor=""]
+    "Arthur"[fillcolor=""]
     "Audrey Pulsar"[fillcolor="#a300a3"]
+    "Ayoub Horn"[fillcolor="#f2be00"]
     "Baptiste Koh"[fillcolor="#f2be00"]
-    "Barranco"[fillcolor=""]
+    "Barranco Jones"[fillcolor="#edc9af"]
     "Barzola Bluff"[fillcolor="#4b488c"]
     "Bastien Apo"[fillcolor=""]
     "Ben Spark"[fillcolor=""]
@@ -199,8 +225,11 @@ Olivier -> Camille
     "Céléna"[fillcolor=""]
     "Charlie Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Choko Clint"[fillcolor="#c28469"]
+    "Christophe Enigm'Art"[fillcolor="#97d9f0"]
+    "Clément Enigm'Art"[fillcolor="#97d9f0"]
     "Clovis"[fillcolor=""]
     "Corentin Clint"[fillcolor="#c28469"]
+    "Cyriane"[fillcolor=""]
     "Daniel Valar"[fillcolor="#4b488c"]
     "Dylan Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Elias Pulsar"[fillcolor="#a300a3"]
@@ -218,7 +247,9 @@ Olivier -> Camille
     "Hugo Bluff"[fillcolor="#4b488c"]
     "Isabelle Diabo / SurréArtList"[fillcolor="#ff4d5c"]
     "Jean Valar"[fillcolor="#4b488c"]
+    "Jeanne Clint"[fillcolor="#c28469"]
     "Jeanne Jack"[fillcolor="#ff9654"]
+    "Jérémy Pulsar"[fillcolor="#a300a3"]
     "Johyn Enigm'Abso"[fillcolor="#5d30ff:#97d9f0"]
     "Jorge"[fillcolor=""]
     "Joséphine Enigm'Art"[fillcolor="#97d9f0"]
@@ -230,12 +261,14 @@ Olivier -> Camille
     "Léo Mascotte"[fillcolor=""]
     "Leopold Pulsar"[fillcolor="#a300a3"]
     "Logan"[fillcolor=""]
+    "Lubin Pulsar"[fillcolor="#a300a3"]
     "Lucas Chap"[fillcolor="#00BFFF"]
     "Lucas Bluff"[fillcolor="#4b488c"]
     "Lucie Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Lucille Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Manon Horn"[fillcolor="#f2be00"]
     "Manon Storm"[fillcolor="#a300a3"]
+    "Marie Wagner"[fillcolor=""]
     "Mathieu Enigm'Abso"[fillcolor="#5d30ff:#97d9f0"]
     "Mathilde Valhall'Art"[fillcolor="#00BFFF"]
     "Matisse Lord"[fillcolor="#ff4d5c"]
@@ -252,11 +285,13 @@ Olivier -> Camille
     "Paul Trooper Moune"[fillcolor="#ffffff"]
     "Pierre Abso"[fillcolor="#5d30ff"]
     "Pierre Jack"[fillcolor="#ff9654"]
+    "Quentin Enigm'Art"[fillcolor="#97d9f0"]
     "Quentin Valhall'Art"[fillcolor="#00BFFF"]
     "Rémi Lord"[fillcolor="#ff4d5c"]
     "Robin Horn"[fillcolor="#f2be00"]
     "Sam Ghib'n'Bluff"[fillcolor="#4b488c:#5d30ff"]
     "Sarah Wiz"[fillcolor="#afa4ce"]
+    "Sébastien Ars'n"[fillcolor=""]
     "Sébastien Legends"[fillcolor=""]
     "Séréna Enigm'Art"[fillcolor="#97d9f0"]
     "Simon Atlas"[fillcolor="#ffffff"]
@@ -267,9 +302,12 @@ Olivier -> Camille
     "Thomas Malaf Trooper"[fillcolor="#ffffff"]
     "Thomas NL Bluff"[fillcolor="#4b488c"]
     "Thomas Valhall'Art"[fillcolor="#00BFFF"]
+    "Timothée Stan'Pulsar"[fillcolor="#a300a3"]
     "Tiphaine Enigm'Art"[fillcolor="#97d9f0"]
+    "Titouan Horn"[fillcolor="#f2be00"]
     "Tom Valhall'Art"[fillcolor="#00BFFF"]
     "Ugo Tyranno"[fillcolor=""]
+    "Valentin Enigm'Art"[fillcolor="#97d9f0"]
     "Victor Abso"[fillcolor="#5d30ff"]
     "Vincent Pulsar"[fillcolor="#a300a3"]
     "Vincent Valhall'Art"[fillcolor="#00BFFF"]
@@ -278,5 +316,6 @@ Olivier -> Camille
     "Vivien Clint"[fillcolor="#c28469"]
     "Yoann Bluff"[fillcolor="#4b488c"]
     "Yanis Pulsar"[fillcolor="#a300a3"]
-    "Zoé"[fillcolor=""]
-}
+    "Yohann Horn"[fillcolor="#f2be00"]
+    "Zoé Desprez"[fillcolor=""]
+} 

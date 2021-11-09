@@ -90,7 +90,7 @@ def lists_init():
     color_list.append(("an'art", "#ff4d5c"))
     color_list.append(("abso", "#5d30ff"))
     color_list.append(("ghib", "#5d30ff"))
-    color_list.append(("drag", "##3700ff"))
+    color_list.append(("drag", "#3700ff"))
     color_list.append(("enig", "#97d9f0"))
     color_list.append(("jack", "#ff9654"))
     color_list.append(("wiz", "#afa4ce"))

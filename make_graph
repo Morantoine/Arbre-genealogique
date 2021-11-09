@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+dot graph.dot -T jpg -o graph.jpg

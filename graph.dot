@@ -1,0 +1,25 @@
+/*
+Syntaxe : Nom1 -> Nom2
+
+ou 
+
+Nom1 -> {Nom2, ..., NomXX}
+
+Si nom en plusieurs mots, mettre entre guillemets : ex "Antoine Moran"
+
+######################
+LISTE DES NOMS (VEUILLEZ UTILISER NOM QUI EXISTE DÉJA
+SI POSSIBLE POUR RACCODER, SINON RAJOUTEZ LES) :
+
+----
+Antoine Moran
+Jorge
+Logan
+----
+######################
+*/
+
+digraph G {
+    node[color = "#c1c9e2", style=filled];
+    "Antoine Moran" -> {Jorge, Logan}
+}

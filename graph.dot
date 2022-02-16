@@ -100,6 +100,7 @@ Nathan Trooper
 Nathan Valhall'Art
 Nounours Atlas
 Olivier
+Paul Colinot
 Pauline Spark
 Paul Trooper Moune
 Pierre Abso
@@ -167,9 +168,10 @@ Olivier -> Camille
 "Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art", "Mohammed Enigm'Art"}
 "Alex Enigm'Abso" -> {"Maxime Pulsar"}
 "Vincent Pulsar" -> {"Nathan Valhall'Art", "Thomas Valhall'Art", "Mathilde Valhall'Art", "Anna Horn"}
+"Mathilde Valhall'Art" -> {"Paul Colinot"}
 "Théophile Trooper" ->{"Alexandre Spark", "Lucas Bluff","Sam Ghib'n'Bluff","Barzola Bluff", "Yoann Bluff"}
 "Yoann Bluff" -> {"Guilhaume Lord", "Nounours Atlas", "Vivien Clint", "Guillaume Atlas"}
-"Hugo Bluff" -> {"Antoine GC Lord", "Antoine Lord Murat", "Gloria Lord", "Matisse Lord", "Vincent Aero"}
+"Hugo Bluff" -> {"ntoine GC Lord", "Antoine Lord Murat", "Gloria Lord", "Matisse Lord", "Vincent Aero"}
 "Thomas Malaf Trooper" -> {"Milou Bluff Mascotte", "Barzola Bluff"}
 "Nathan Trooper" -> {"Barzola Bluff", "Albin Bluff", "Thomas NL Bluff", "Hugo Bluff", "Pauline Spark"}
 "Mathieu Enigm'Abso" -> {"Maxime Pulsar","Yanis Pulsar","Leopold Pulsar","Vincent Pulsar"}
@@ -205,18 +207,19 @@ Olivier -> Camille
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe", "Marie"}    
-"Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"
+"Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
 
+##################################
 #Zone de non droit
 
 /*
 Flavien -> {"Antoine Valhall'Art"} [style=dotted]
-Jorge -> {Logan} [style=dotted]
 "Lalie Valhall'Art" -> {Zoe} [style=dotted]
-"Virgile" -> {Lucas} [style=dotted]
+“Lucas” -> Jorge [style=dotted]
+“Virgile” -> Lucas [style=dotted]
 */
 
-}
+##################################
 
     "Adrien"[fillcolor=""]
     "Ahmed Dragons"[fillcolor="#3700ff"]
@@ -305,6 +308,7 @@ Jorge -> {Logan} [style=dotted]
     "Nathan Valhall'Art"[fillcolor="#00BFFF"]
     "Nounours Atlas"[fillcolor="#ffffff"]
     "Olivier"[fillcolor=""]
+    "Paul Colinot"[fillcolor=""]
     "Pauline Spark"[fillcolor=""]
     "Paul Trooper Moune"[fillcolor="#ffffff"]
     "Pierre Abso"[fillcolor="#5d30ff"]

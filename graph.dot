@@ -188,7 +188,6 @@ Olivier -> Camille
 "Benoît Bluff" -> "Guilhaume Lord" 
 "Lucille Lord-Clint" -> {"Séréna Enigm'Art", "Céléna"}
 "Audrey Pulsar" -> {"Manon Horn"}
-Lucas -> {Jorge}
 "Julien Camus Trooper" -> {"Alexandre Spark", "Fanny Spark"}
 "Sam Ghib'n'Bluff" -> {"Guilhaume Lord", "Charlie Lord-Clint", "Choko Clint", "Rémi Lord", "Lucie Lord-Clint", "Dylan Lord-Clint", "Jeanne Clint"}
 "Gabriel" -> {"Sarah Wiz", "Guillaume Wiz"}
@@ -201,13 +200,24 @@ Lucas -> {Jorge}
 "Charlie Lord-Clint" -> {"Céléna", "Clément Enigm'Art", "Christophe Enigm'Art"}
 "Jeanne Clint" -> {"Séréna Enigm'Art"}
 "Mohammed Enigm'Art" -> {"Jérémy Pulsar"}
-"Virgile" -> {Lucas}
 "Vivien Clint" -> {"Joséphine Enigm'Art", "Barranco Jones"}
 "Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe", "Marie"}    
-"Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
+"Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"
+
+#Zone de non droit
+
+/*
+Flavien -> {"Antoine Valhall'Art"} [style=dotted]
+Jorge -> {Logan} [style=dotted]
+"Lalie Valhall'Art" -> {Zoe} [style=dotted]
+"Virgile" -> {Lucas} [style=dotted]
+*/
+
+}
+
     "Adrien"[fillcolor=""]
     "Ahmed Dragons"[fillcolor="#3700ff"]
     "Alice Diabo"[fillcolor="#ff4d5c"]

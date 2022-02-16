@@ -134,7 +134,7 @@ Vivien Clint
 Yoann Bluff
 Yanis Pulsar
 Yohann Horn
-Zoé Desprez
+Zoe
 
 ----
 ######################
@@ -152,7 +152,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Nathan Valhall'Art" -> {Arthur, Hippolyte}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis"} 
-"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso"}
+"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso", "Tiphaine Enigm'Art"}
 "Guilhaume Lord" -> {"Carla Jones", "Baptiste Koh", "Victor Abso", "Léa Abso", "Joséphine Enigm'Art", "Juliette Koh"}
 "Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"} 
 "Isabelle Diabo / SurréArtList" -> {"Thomas Malaf Trooper", "Théophile Trooper", "Nathan Trooper"}
@@ -190,7 +190,7 @@ Olivier -> Camille
 "Morgane An'art" -> {"Tom Valhall'Art", "Thomas Valhall'Art", "Gaspard Valhall'Art"}
 "Thomas Kerboul Trooper" -> {"Thomas NL Bluff"}
 "Guillaume Wiz" -> {"Mathieu Enigm'Abso", "Mohammed Enigm'Art", "Céléna", "Tiphaine Enigm'Art", "Yanis Pulsar", "Valentin Enigm'Art", "Séréna Enigm'Art", "Quentin Enigm'Art", "Sébastien Ars'n"}
-"Vincent Valhall'Art" -> {Flavien, Zoé}
+"Vincent Valhall'Art" -> {Flavien, Zoe}
 "Ahmed Dragons" -> {Cyriane}
 "Charlie Lord-Clint" -> {"Céléna", "Clément Enigm'Art", "Christophe Enigm'Art"}
 "Jeanne Clint" -> {"Séréna Enigm'Art"}
@@ -199,7 +199,7 @@ Olivier -> Camille
 "Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
-"Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoé Desprez", "Marie"}
+"Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe", "Marie"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
     "Ahmed Dragons"[fillcolor="#3700ff"]
     "Alice Diabo"[fillcolor="#ff4d5c"]
@@ -322,5 +322,5 @@ Olivier -> Camille
     "Yoann Bluff"[fillcolor="#4b488c"]
     "Yanis Pulsar"[fillcolor="#a300a3"]
     "Yohann Horn"[fillcolor="#f2be00"]
-    "Zoé Desprez"[fillcolor=""]
+    "Zoe"[fillcolor=""]
 }

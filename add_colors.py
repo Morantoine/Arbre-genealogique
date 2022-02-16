@@ -101,6 +101,7 @@ def lists_init():
     color_list.append(("horn", "#f2be00"))
     color_list.append(("atlas", "#ffffff"))
     color_list.append(("troop", "#ffffff"))
+    color_list.append(("legen", "#ff72fa"))
     # Ici vous pouvez rajouter des exceptions (par défaut les '
     # sont considérés comme des espaces entre 2 noms, il faut des fois
     # rajouter des exceptions, An'art donnerait An et Art sinon)

@@ -12,6 +12,7 @@ SI POSSIBLE POUR RACCODER, SINON RAJOUTEZ LES)
 
 (POUR LES LISTÉS,  METTEZ LE NOM DE LISTE AUSSI SVP) :
 ----
+Adrien
 Ahmed Dragons
 Alice Diabo
 Albin Bluff
@@ -80,6 +81,7 @@ Lubin Pulsar
 Lucas Chap
 Lucas
 Lucas Bluff
+Lucie
 Lucie Lord-Clint
 Lucie Pulsar
 Lucille Lord-Clint
@@ -146,6 +148,7 @@ digraph G {
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"]; 
 "Antoine Valhall'Art" -> {Jorge, Logan}
+"Ayoub Horn" -> {Jorge}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {Virgile, Lucas, Logan}
@@ -158,7 +161,9 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Isabelle Diabo / SurréArtList" -> {"Thomas Malaf Trooper", "Théophile Trooper", "Nathan Trooper"}
 "Tiphaine Enigm'Art" -> {"Elias Pulsar", "Leopold Pulsar", "Sébastien Legends", "Élodie Horn"}
 "Elias Pulsar" -> Olivier
+"Élodie Horn" -> {Adrien}
 Olivier -> Camille
+"Robin Horn" -> {Lucie, Adrien}
 "Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art", "Mohammed Enigm'Art"}
 "Alex Enigm'Abso" -> {"Maxime Pulsar"}
 "Vincent Pulsar" -> {"Nathan Valhall'Art", "Thomas Valhall'Art", "Mathilde Valhall'Art", "Anna Horn"}
@@ -183,6 +188,7 @@ Olivier -> Camille
 "Benoît Bluff" -> "Guilhaume Lord" 
 "Lucille Lord-Clint" -> {"Séréna Enigm'Art", "Céléna"}
 "Audrey Pulsar" -> {"Manon Horn"}
+Lucas -> {Jorge}
 "Julien Camus Trooper" -> {"Alexandre Spark", "Fanny Spark"}
 "Sam Ghib'n'Bluff" -> {"Guilhaume Lord", "Charlie Lord-Clint", "Choko Clint", "Rémi Lord", "Lucie Lord-Clint", "Dylan Lord-Clint", "Jeanne Clint"}
 "Gabriel" -> {"Sarah Wiz", "Guillaume Wiz"}
@@ -195,12 +201,14 @@ Olivier -> Camille
 "Charlie Lord-Clint" -> {"Céléna", "Clément Enigm'Art", "Christophe Enigm'Art"}
 "Jeanne Clint" -> {"Séréna Enigm'Art"}
 "Mohammed Enigm'Art" -> {"Jérémy Pulsar"}
+"Virgile" -> {Lucas}
 "Vivien Clint" -> {"Joséphine Enigm'Art", "Barranco Jones"}
 "Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoé Desprez", "Marie"}
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
+    "Adrien"[fillcolor=""]
     "Ahmed Dragons"[fillcolor="#3700ff"]
     "Alice Diabo"[fillcolor="#ff4d5c"]
     "Albin Bluff"[fillcolor="#4b488c"]
@@ -268,6 +276,7 @@ Olivier -> Camille
     "Lubin Pulsar"[fillcolor="#a300a3"]
     "Lucas Chap"[fillcolor="#00BFFF"]
     "Lucas Bluff"[fillcolor="#4b488c"]
+    "Lucie"[fillcolor=""]
     "Lucie Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Lucie Pulsar"[fillcolor="#a300a3"]
     "Lucille Lord-Clint"[fillcolor="#ff4d5c:#c28469"]

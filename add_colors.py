@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 
+
+from unicodedata import name
+
+
 def get_liste_noms():
     """
-        Lit la liste des personnes entre les
-        ----
-        ----
-        dans l'en-tête
+    Lit la liste des personnes entre les
+    ----
+    ----
+    dans l'en-tête
     """
-    file = open("graph.dot", 'r+')
+    file = open("graph.dot", "r+")
     liste_noms = []
     get_in = False
     for line in file.readlines():
@@ -28,7 +32,7 @@ def insert_line(string):
     with open("graph.dot", "r") as f:
         contents = f.readlines()
 
-    num_lines = sum(1 for _ in open('graph.dot'))
+    num_lines = sum(1 for _ in open("graph.dot"))
     contents.insert(num_lines - 1, string + "\n")
 
     with open("graph.dot", "w") as f:
@@ -48,7 +52,7 @@ def delete_old_nodes():
 
 def check_if_node(string):
     """Vérifie si une coloration existe déjà pour la personne"""
-    file = open("graph.dot", 'r+')
+    file = open("graph.dot", "r+")
     for line in file.readlines():
         if string in line:
             if "color" in line:
@@ -61,66 +65,93 @@ def check_if_node(string):
 def new_node(nom, color_list, exceptions):
     """Crée le node avec les bonnes couleurs"""
     line = '    "{}"'.format(nom)
-    for exception, replacement in exceptions:
-        nom.replace(exception, replacement)
+    names_sorted = list(exceptions.keys())
+    names_sorted.sort(key = len)
+    for exception in names_sorted :
+        nom.replace(exception, exceptions[exception])
     nom.replace("'", " ")
-    for exception, replacement in exceptions:
-        nom.replace(replacement, exception)
+    for exception in names_sorted :
+        nom.replace(exceptions[exception], exceptions[exception])
     nom = nom.split()
     line += '[fillcolor="{}"]'.format(couleur(nom[1:], color_list))
-    return(line)
+    return line
 
 
 def lists_init():
     """
-        C'est ici que vous devez rajouter le mot-clef à chercher
-        dans les noms (pratique pour les noms abregés) 
-        avec la couleur correspondante
+    C'est ici que vous devez rajouter le mot-clef à chercher
+    dans les noms (pratique pour les noms abregés)
+    avec la couleur correspondante
     """
-    color_list = []
-    color_list.append(("puls", "#a300a3"))
-    color_list.append(("storm", "#a300a3"))
-    color_list.append(("valh", "#00BFFF"))
-    color_list.append(("chap", "#00BFFF"))
-    color_list.append(("valar", "#4b488c"))
-    color_list.append(("bluff", "#4b488c"))
-    color_list.append(("dice", "#ff4d5c"))
-    color_list.append(("diab", "#ff4d5c"))
-    color_list.append(("lord", "#ff4d5c"))
-    color_list.append(("an'art", "#ff4d5c"))
-    color_list.append(("abso", "#5d30ff"))
-    color_list.append(("ghib", "#5d30ff"))
-    color_list.append(("drag", "#3700ff"))
-    color_list.append(("enig", "#97d9f0"))
-    color_list.append(("jack", "#ff9654"))
-    color_list.append(("wiz", "#afa4ce"))
-    color_list.append(("jones", "#edc9af"))
-    color_list.append(("clint", "#c28469"))
-    color_list.append(("koh", "#f2be00"))
-    color_list.append(("chill", "#f2be00"))
-    color_list.append(("horn", "#f2be00"))
-    color_list.append(("atlas", "#ffffff"))
-    color_list.append(("troop", "#ffffff"))
-    color_list.append(("legen", "#ff72fa"))
+    color_list = {}
+    color_list["puls"] = "#a300a3"
+    color_list["storm"] = "#a300a3"
+    color_list["valh"] = "#00BFFF"
+    color_list["chap"] = "#00BFFF"
+    color_list["valar"] = "#4b488c"
+    color_list["bluff"] = "#4b488c"
+    color_list["dice"] = "#ff4d5c"
+    color_list["diab"] = "#ff4d5c"
+    color_list["lord"] = "#ff4d5c"
+    color_list["an'art"] = "#ff4d5c"
+    color_list["abso"] = "#5d30ff"
+    color_list["ghib"] = "#5d30ff"
+    color_list["drag"] = "#3700ff"
+    color_list["enig"] = "#97d9f0"
+    color_list["jack"] = "#ff9654"
+    color_list["wiz"] = "#afa4ce"
+    color_list["jones"] = "#edc9af"
+    color_list["clint"] = "#c28469"
+    color_list["koh"] = "#f2be00"
+    color_list["chill"] = "#f2be00"
+    color_list["horn"] = "#f2be00"
+    color_list["atlas"] = "#ffffff"
+    color_list["troop"] = "#ffffff"
+    color_list["legen"] = "#ff72fa"
+    color_list["sharks"] = "#bdabda"
+    color_list["katan'art"] = "#ffcba4"
+    color_list["mist"] = "#9e0e40"
+    color_list["gold"] = "#ffffff"
     # Ici vous pouvez rajouter des exceptions (par défaut les '
     # sont considérés comme des espaces entre 2 noms, il faut des fois
     # rajouter des exceptions, An'art donnerait An et Art sinon)
     # PS : Anart est arbitraire, il doit simplement être unique
-    exceptions = []
-    exceptions.append(("An'art", "Anart"))
-    return(color_list, exceptions)
+    exceptions = {}
+    exceptions["Katan'art"] = "Katanart"
+    exceptions["An'art"] = "Anart"
+    return (color_list, exceptions)
+
+
+def longest_list_color(name, listnames):
+    color = ""
+    longest = ""
+    trash = []
+    for list_name, color_hex in listnames.items() :
+        if list_name in name and longest in list_name:
+            color = color_hex
+            trash.append(list_name)
+            longest = list_name
+    for name in trash :
+        listnames.pop(name, None)
+    listnames.pop(longest, None)    
+    print("Le nom le plus long pour " + name + " est " + longest)
+    return list, color, listnames
 
 
 def couleur(liste_noms, color_list):
     """
-        Renvoie le texte correspondant au dégradé de la personne
+    Renvoie le texte correspondant au dégradé de la personne
     """
     color = ""
+    #print("LISTE DE NOMS : ", liste_noms)
     for nom in liste_noms:
+        local_dico = color_list.copy()
         nom = nom.lower()
-        for (liste, color_hex) in color_list:
-            if liste in nom:
-                color += color_hex + ":"
+        list, color_hex, local_dico = longest_list_color(nom, local_dico)
+        while len(color_hex) > 0:
+            #print("COULEUR TROUVÉE : " + color_hex)
+            color += color_hex + ":"
+            list, color_hex, local_dico = longest_list_color(nom, local_dico)
 
     if len(color) > 0:
         color = color[:-1]

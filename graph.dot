@@ -150,6 +150,7 @@ node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"]; 
 "Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks"}
 "Ayoub Horn" -> {"Jorge Mist"}
+"Jorge Mist" -> {"Lucas Sharks"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}

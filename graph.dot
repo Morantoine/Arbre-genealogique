@@ -89,6 +89,7 @@ Manon Horn
 Manon Storm
 Marie Mist
 Mathieu Enigm'Abso
+Matthieu Sharks
 Mathilde Valhall'Art
 Matisse Lord
 Maxime Koh
@@ -148,9 +149,8 @@ Ajoutez vos fillotages ici (je les commiterai dans 2 ans) :
 digraph G {
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"]; 
-"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks"}
+"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks"}
 "Ayoub Horn" -> {"Jorge Mist"}
-"Jorge Mist" -> {"Lucas Sharks"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
@@ -218,6 +218,7 @@ Olivier -> "Camille Katan'Art"
 "Lalie Valhall'Art" -> {"Zoe Mist"} [style=dotted]
 “Lucas Sharks” -> "Jorge Mist" [style=dotted]
 “Virgile Sharks” -> "Lucas Sharks" [style=dotted]
+"Jorge Mist" -> {"Lucas Sharks"}
 */
 
 ##################################
@@ -299,6 +300,7 @@ Olivier -> "Camille Katan'Art"
     "Manon Storm"[fillcolor="#a300a3"]
     "Marie Mist"[fillcolor="#9e0e40"]
     "Mathieu Enigm'Abso"[fillcolor="#5d30ff:#97d9f0"]
+    "Matthieu Sharks"[fillcolor="#bdabda"]
     "Mathilde Valhall'Art"[fillcolor="#00BFFF"]
     "Matisse Lord"[fillcolor="#ff4d5c"]
     "Maxime Koh"[fillcolor="#f2be00"]

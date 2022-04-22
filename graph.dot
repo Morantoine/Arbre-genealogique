@@ -212,16 +212,17 @@ Olivier -> "Camille Katan'Art"
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
-
-##################################
-#Zone de non droit
-
-/*
 "Flavien Sharks" -> {"Antoine Valhall'Art"} [style=dotted]
 "Lalie Valhall'Art" -> {"Zoe Mist"} [style=dotted]
 “Lucas Sharks” -> "Jorge Mist" [style=dotted]
 “Virgile Sharks” -> "Lucas Sharks" [style=dotted]
 "Jorge Mist" -> {"Lucas Sharks"}
+
+##################################
+#Zone de non droit
+
+/*
+ :(
 */
 
 ##################################

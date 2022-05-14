@@ -159,6 +159,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Thomas Valhall'Art" -> {"Anaïs Katan'Art", "Camille Katan'Art", "Emerick Katan'Art"}
 "Gaspard Valhall'Art" -> {"Logan Sharks", "Jorge Mist", "Clovis Sharks", "Gabriel Katan'Art"}
 "Ayoub Horn" -> {"Jorge Mist"}
+"Titouan Horn" -> {"Jorge Mist"}
 "Anna Horn" -> {"Nils Mist"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}

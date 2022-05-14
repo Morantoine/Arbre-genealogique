@@ -134,7 +134,6 @@ def longest_list_color(name, listnames):
     for name in trash :
         listnames.pop(name, None)
     listnames.pop(longest, None)    
-    print("Le nom le plus long pour " + name + " est " + longest)
     return list, color, listnames
 
 

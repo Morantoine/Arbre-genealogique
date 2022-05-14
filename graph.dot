@@ -20,6 +20,7 @@ Alexandre Spark
 Alex Enigm'Abso
 Amandine Koh
 Anaël Lord
+Anaïs Katan'Art
 Anna Horn
 Antoine GC Lord
 Antoine Lord Murat
@@ -49,9 +50,11 @@ Daniel Valar
 Dylan Lord-Clint
 Elias Pulsar
 Élodie Horn
+Emerick Katan'Art
 Fabrice Atlas
 Flavien Sharks
 Gabriel
+Gabriel Katan'Art
 Gaspard Valhall'Art
 Gladys Chill
 Gloria Lord
@@ -102,6 +105,7 @@ Nathan Valhall'Art
 Nils Mist
 Nounours Atlas
 Olivier
+Olivier Katan'Art
 Paul Sharks
 Pauline Spark
 Paul Trooper Moune
@@ -127,6 +131,7 @@ Thomas Valhall'Art
 Timothée Stan'Pulsar
 Tiphaine Enigm'Art
 Titouan Horn
+Titouan Sharks
 Tom Valhall'Art
 Ugo Tyranno
 Valentin Enigm'Art
@@ -150,16 +155,16 @@ Ajoutez vos fillotages ici (je les commiterai dans 2 ans) :
 digraph G {
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"]; 
-"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks"}
+"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks"}
+"Thomas Valhall'Art" -> {"Anaïs Katan'Art", "Camille Katan'Art", "Emerick Katan'Art"}
+"Gaspard Valhall'Art" -> {"Logan Sharks", "Jorge Mist", "Clovis Sharks", "Gabriel Katan'Art"}
 "Ayoub Horn" -> {"Jorge Mist"}
-"Gaspard Valhall'Art" -> {"Jorge Mist"}
-"Gaspard Valhall'Art" -> {"Clovis Sharks"}
 "Anna Horn" -> {"Nils Mist"}
-"Gaspard Valhall'Art" -> {"Logan Sharks"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
-"Nathan Valhall'Art" -> {"Arthur Gold", "Hippolyte Gold"}
+"Quentin Valhall'Art" -> "Olivier Katan'Art"
+"Nathan Valhall'Art" -> {"Arthur Gold", "Hippolyte Gold", "Titouan Sharks"}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"} 
 "Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso", "Tiphaine Enigm'Art"}
@@ -236,6 +241,7 @@ Olivier -> "Camille Katan'Art"
     "Alex Enigm'Abso"[fillcolor="#5d30ff:#97d9f0"]
     "Amandine Koh"[fillcolor="#f2be00"]
     "Anaël Lord"[fillcolor="#ff4d5c"]
+    "Anaïs Katan'Art"[fillcolor="#ffcba4"]
     "Anna Horn"[fillcolor="#f2be00"]
     "Antoine GC Lord"[fillcolor="#ff4d5c"]
     "Antoine Lord Murat"[fillcolor="#ff4d5c"]
@@ -265,9 +271,11 @@ Olivier -> "Camille Katan'Art"
     "Dylan Lord-Clint"[fillcolor="#ff4d5c:#c28469"]
     "Elias Pulsar"[fillcolor="#a300a3"]
     "Élodie Horn"[fillcolor="#f2be00"]
+    "Emerick Katan'Art"[fillcolor="#ffcba4"]
     "Fabrice Atlas"[fillcolor="#ffffff"]
     "Flavien Sharks"[fillcolor="#bdabda"]
     "Gabriel"[fillcolor=""]
+    "Gabriel Katan'Art"[fillcolor="#ffcba4"]
     "Gaspard Valhall'Art"[fillcolor="#00BFFF"]
     "Gladys Chill"[fillcolor="#f2be00"]
     "Gloria Lord"[fillcolor="#ff4d5c"]
@@ -318,6 +326,7 @@ Olivier -> "Camille Katan'Art"
     "Nils Mist"[fillcolor="#9e0e40"]
     "Nounours Atlas"[fillcolor="#ffffff"]
     "Olivier"[fillcolor=""]
+    "Olivier Katan'Art"[fillcolor="#ffcba4"]
     "Paul Sharks"[fillcolor="#bdabda"]
     "Pauline Spark"[fillcolor=""]
     "Paul Trooper Moune"[fillcolor="#ffffff"]
@@ -343,6 +352,7 @@ Olivier -> "Camille Katan'Art"
     "Timothée Stan'Pulsar"[fillcolor="#a300a3"]
     "Tiphaine Enigm'Art"[fillcolor="#97d9f0"]
     "Titouan Horn"[fillcolor="#f2be00"]
+    "Titouan Sharks"[fillcolor="#bdabda"]
     "Tom Valhall'Art"[fillcolor="#00BFFF"]
     "Ugo Tyranno"[fillcolor=""]
     "Valentin Enigm'Art"[fillcolor="#97d9f0"]

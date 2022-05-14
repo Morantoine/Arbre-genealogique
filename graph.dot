@@ -99,6 +99,7 @@ Mohammed Enigm'Art
 Morgane An'art
 Nathan Trooper
 Nathan Valhall'Art
+Nils Mist
 Nounours Atlas
 Olivier
 Paul Sharks
@@ -153,6 +154,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Ayoub Horn" -> {"Jorge Mist"}
 "Gaspard Valhall'Art" -> {"Jorge Mist"}
 "Gaspard Valhall'Art" -> {"Clovis Sharks"}
+"Anna Horn" -> {"Nils Mist"}
 "Gaspard Valhall'Art" -> {"Logan Sharks"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
@@ -313,6 +315,7 @@ Olivier -> "Camille Katan'Art"
     "Morgane An'art"[fillcolor="#ff4d5c"]
     "Nathan Trooper"[fillcolor="#ffffff"]
     "Nathan Valhall'Art"[fillcolor="#00BFFF"]
+    "Nils Mist"[fillcolor="#9e0e40"]
     "Nounours Atlas"[fillcolor="#ffffff"]
     "Olivier"[fillcolor=""]
     "Paul Sharks"[fillcolor="#bdabda"]

@@ -6,23 +6,18 @@ from unicodedata import name
 
 def get_liste_noms():
     """
-    Lit la liste des personnes entre les
-    ----
-    ----
-    dans l'en-tête
+    Lit la liste des personnes dans les différentes promos
     """
     file = open("graph.dot", "r+")
     liste_noms = []
-    get_in = False
-    for line in file.readlines():
-        if get_in:
-            liste_noms.append(line.rstrip("\n"))
-        if "----" in line:
-            if not get_in:
-                get_in = True
-            else:
-                break
-    liste_noms.pop()
+    line_list = file.readlines()
+    for index in range(len(line_list)):
+        line = line_list[index]
+        if "Promo" in line:
+            promo_line = line_list[index + 3]
+            if promo_line != "}\n":
+                liste_noms += [s.replace('"', '')
+                               for s in promo_line.rstrip().split('" "')]
     file.close()
     return liste_noms
 
@@ -66,11 +61,11 @@ def new_node(nom, color_list, exceptions):
     """Crée le node avec les bonnes couleurs"""
     line = '    "{}"'.format(nom)
     names_sorted = list(exceptions.keys())
-    names_sorted.sort(key = len)
-    for exception in names_sorted :
+    names_sorted.sort(key=len)
+    for exception in names_sorted:
         nom.replace(exception, exceptions[exception])
     nom.replace("'", " ")
-    for exception in names_sorted :
+    for exception in names_sorted:
         nom.replace(exceptions[exception], exceptions[exception])
     nom = nom.split()
     line += '[fillcolor="{}"]'.format(couleur(nom[1:], color_list))
@@ -126,14 +121,14 @@ def longest_list_color(name, listnames):
     color = ""
     longest = ""
     trash = []
-    for list_name, color_hex in listnames.items() :
+    for list_name, color_hex in listnames.items():
         if list_name in name and longest in list_name:
             color = color_hex
             trash.append(list_name)
             longest = list_name
-    for name in trash :
+    for name in trash:
         listnames.pop(name, None)
-    listnames.pop(longest, None)    
+    listnames.pop(longest, None)
     return list, color, listnames
 
 

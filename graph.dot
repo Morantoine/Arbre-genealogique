@@ -10,6 +10,8 @@ Si nom en plusieurs mots, mettre entre guillemets : ex "Antoine Moran" (VAUT AUS
 LISTE DES NOMS (VEUILLEZ UTILISER UN NOM QUI EXISTE DÉJA
 SI POSSIBLE POUR RACCODER, SINON RAJOUTEZ LES)
 
+OUBLIEZ PAS DE RAJOUTER DANS LA PROMO CORRESPONDANTE EN BAS AUSSI SVP
+
 (POUR LES LISTÉS,  METTEZ LE NOM DE LISTE AUSSI SVP) :
 ----
 Adrien Gold
@@ -234,6 +236,61 @@ Olivier -> "Camille Katan'Art"
 
 ##################################
 
+
+    # Mettez votre nom dans la bonne promo pour l'alignement
+    # Promo 2015
+    {
+    rank=same
+    "Bastien Apo"
+    }
+    # Promo 2016
+    {
+    rank=same
+    }
+    # Promo 2017
+    {
+    rank=same
+    "Alice Diabo" "Daniel Valar" "Jean Valar" "Isabelle Diabo / SurréArtList"
+    }
+    # Promo 2018
+    {
+    rank=same
+    "Leo Mascotte" "Thomas Malaf Trooper" "Nathan Trooper" "Paul Trooper Moune" "Thimas Kerboul Trooper" "Léa Chill" "Gladys Chill" "Théophile Trooper" "Lucas Chap" 
+    }
+    # Promo 2019
+    {
+    rank=same
+    "Milou Bluff Mascotte" "Albin Bluff" "Barzola Bluff" "Pauline Spark" "Fanny Spark" "Hugo Bluff" "Gabriel" "Alexandre Spark" "Thomas NL Bluff" "Ben Spark" "Sam Ghib'n'Bluff" "Benoît Bluff" "Yoann Bluff" "Lucas Bluff"
+    }
+    # Promo 2020
+    {
+    rank=same
+    "Corentin Clint" "Erwan" "Gloria Lord" "Matisse Lord" "Vicent Aero" "Antoine Lord Murat" "Guillaume Wiz" "Antoine GC Lord" "Sarah Wiz" "Pierre Jack" "Jeanne Jack" "Anaël Lord" "Simon Atlas" "Léo Atlas" "Lucille Lord-Clint" "Choko Clint" "Manon Storm" "Antonin Atlas" "Thibaud" "Fabrice Atlas" "Jeanne Clint" "Charlie Lord-Clint" "Rémi Lord" "Dylan Lord-Clint" "Lucie Lord-Clint" "Guilhaume Lord" "Vivien Clint" "Nounours Atlas" "Guillaume Atlas"
+    }
+    # Promo 2021
+    {
+    rank=same
+    "Amandine Koh" "Mathieu Enigm'Abso" "Quentin Enigm'Art" "Sébastien Ars'n" "Valentin Enigm'Art" "Pierre Abso" "Hugo Abso" "Maxime Koh" "Céléna" "Tiphaine Enigm'Art" "Mohammed Enigm'Art" "Séréna Enigm'Art" "Alex Enigm'Abso" "Victor Abso" "Baptiste Koh" "Ugo Tyranno" "Clément Enigm'Art" "Christophe Enigm'Art" "Johyn Enigm'Abso" "Juliette Koh" "Léa Abso" "Carla Jones" "Barranco Jones" "Joséphine Enigm'Art"
+    }
+    # Promo 2022
+    {
+    rank=same
+    "Yanis Pulsar" "Leopold Pulsar" "Vincent Pulsar" "Sébastien Legends" "Maxime Pulsar" "Elias Pulsar" "Morgane An'art" "Jérémy Pulsar" "Audrey Pulsar" "Timothée Stan'Pulsar" "Lubin Pulsar" "Lucie Pulsar"
+    }
+    # Promo 2023
+    {
+    rank=same
+    "Thaïs Dice" "Robin Horn" "Vincent Valhall'Art" "Anna Horn" "Élodie Horn" "Nathan Valhall'Art" "Mathilde Valhall'Art" "Quentin Valhall'Art" "Antoine Valhall'Art" "Lalie Valhall'Art" "Gaspard Valhall'Art" "Olivier" "Tom Valhall'Art" "Ayoub Horn" "Titouan Horn" "Thomas Valhall'Art" "Yohann Horn" "Marie Mist" "Manon Horn"
+    }
+    # Promo 2024
+    {
+    rank=same
+    }
+    # Promo 2025
+    {
+    rank=same
+    "Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoe Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks"
+    }
     "Adrien Gold"[fillcolor="#ffffff"]
     "Ahmed Dragons"[fillcolor="#3700ff"]
     "Alice Diabo"[fillcolor="#ff4d5c"]

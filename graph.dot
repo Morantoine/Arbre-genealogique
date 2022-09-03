@@ -20,7 +20,7 @@ digraph G {
 # Ajoutez vos fillotages ici (je les commiterai dans 2 ans) :
 
 node[color = "#c1c9e2", style=filled, shape=rectangle];
-graph [pad="0.5", nodesep="1", ranksep="2"]; 
+graph [pad="0.5", nodesep="1", ranksep="2"];
 "Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks"}
 "Thomas Valhall'Art" -> {"Anaïs Katan'Art", "Camille Katan'Art", "Emerick Katan'Art"}
 "Gaspard Valhall'Art" -> {"Logan Sharks", "Jorge Mist", "Clovis Sharks", "Gabriel Katan'Art"}
@@ -31,12 +31,12 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
 "Quentin Valhall'Art" -> "Olivier Katan'Art"
-"Nathan Valhall'Art" -> {"Arthur Gold", "Hippolyte Gold", "Titouan Sharks", "Théo Mist"}
+"Nathan Valhall'Art" -> {"Arthur Gold", "Hippolyte Gold", "Titouan Sharks", "Théo Mist", "Hadrien Snow", "Alan Katan'art"}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
-"Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"} 
-"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso", "Tiphaine Enigm'Art"}
+"Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"}
+"Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso", "Tiphaine Enigm'Art", "Flavien Sharks"}
 "Guilhaume Lord" -> {"Carla Jones", "Baptiste Koh", "Victor Abso", "Léa Abso", "Joséphine Enigm'Art", "Juliette Koh"}
-"Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"} 
+"Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"}
 "Isabelle Diabo / SurréArtList" -> {"Thomas Malaf Trooper", "Théophile Trooper", "Nathan Trooper"}
 "Tiphaine Enigm'Art" -> {"Elias Pulsar", "Leopold Pulsar", "Sébastien Legends", "Élodie Horn"}
 "Elias Pulsar" -> Olivier
@@ -61,18 +61,18 @@ Olivier -> "Camille Katan'Art"
 "Barzola Bluff"->Erwan
 "Bastien Apo" -> "Alice Diabo"
 "Daniel Valar" -> {"Julien Camus Trooper", "Léa Chill"}
-"Paul Trooper Moune" -> {"Ben Spark", "Hugo Bluff"} 
+"Paul Trooper Moune" -> {"Ben Spark", "Hugo Bluff"}
 "Alexandre Spark" -> {"Simon Atlas", "Léo Atlas", "Pierre Jack", "Jeanne Jack", "Anaël Lord", "Antonin Atlas"}
 "Antonin Atlas" -> {"Ugo Tyranno"}
 "Thomas NL Bluff" -> {"Lucille Lord-Clint", "Choko Clint"}
-"Benoît Bluff" -> "Guilhaume Lord" 
+"Benoît Bluff" -> "Guilhaume Lord"
 "Lucille Lord-Clint" -> {"Séréna Enigm'Art", "Céléna"}
 "Audrey Pulsar" -> {"Manon Horn"}
 "Julien Camus Trooper" -> {"Alexandre Spark", "Fanny Spark"}
 "Sam Ghib'n'Bluff" -> {"Guilhaume Lord", "Charlie Lord-Clint", "Choko Clint", "Rémi Lord", "Lucie Lord-Clint", "Dylan Lord-Clint", "Jeanne Clint"}
 "Gabriel" -> {"Sarah Wiz", "Guillaume Wiz"}
 "Ben Spark" -> {"Manon Storm", "Antonin Atlas", "Fabrice Atlas", "Charlie Lord-Clint", "Thibaud"}
-"Morgane An'art" -> {"Tom Valhall'Art", "Thomas Valhall'Art", "Gaspard Valhall'Art"}
+"Morgane An'art" -> {"Tom Valhall'Art", "Thomas Valhall'Art", "Gaspard Valhall'Art", "Jorge Mist"}
 "Thomas Kerboul Trooper" -> {"Thomas NL Bluff"}
 "Guillaume Wiz" -> {"Mathieu Enigm'Abso", "Mohammed Enigm'Art", "Céléna", "Tiphaine Enigm'Art", "Yanis Pulsar", "Valentin Enigm'Art", "Séréna Enigm'Art", "Quentin Enigm'Art", "Sébastien Ars'n"}
 "Vincent Valhall'Art" -> {"Flavien Sharks", "Zoe Mist"}
@@ -83,11 +83,14 @@ Olivier -> "Camille Katan'Art"
 "Vivien Clint" -> {"Joséphine Enigm'Art", "Barranco Jones"}
 "Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
 "Timothée Stan'Pulsar" -> {"Théo Mist"}
-"Chloé Horn" -> {"Théo Mist"}
+"Chloé Horn" -> {"Théo Mist", "Jorge Mist"}
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
+"Jorge Mist" -> {"Henri", "Clara"}
+"Flavien Sharks" -> {"Henri"}
+
 
 ##################################
 #Zone de non droit
@@ -120,7 +123,7 @@ rank=same
 # Promo 2018
 {
 rank=same
-"Léo Mascotte" "Thomas Malaf Trooper" "Nathan Trooper" "Paul Trooper Moune" "Thomas Kerboul Trooper" "Léa Chill" "Gladys Chill" "Théophile Trooper" "Lucas Chap" 
+"Léo Mascotte" "Thomas Malaf Trooper" "Nathan Trooper" "Paul Trooper Moune" "Thomas Kerboul Trooper" "Léa Chill" "Gladys Chill" "Théophile Trooper" "Lucas Chap"
 }
 # Promo 2019
 {
@@ -145,20 +148,18 @@ rank=same
 # Promo 2023
 {
 rank=same
-"Thaïs Dice" "Robin Horn" "Vincent Valhall'Art" "Anna Horn" "Élodie Horn" "Nathan Valhall'Art" "Mathilde Valhall'Art" "Quentin Valhall'Art" "Antoine Valhall'Art" "Lalie Valhall'Art" "Gaspard Valhall'Art" "Olivier" "Tom Valhall'Art" "Ayoub Horn" "Titouan Horn" "Thomas Valhall'Art" "Yohann Horn" "Marie Mist" "Manon Horn" "Chloé Horn"
+"Thaïs Dice" "Robin Horn" "Vincent Valhall'Art" "Anna Horn" "Élodie Horn" "Nathan Valhall'Art" "Mathilde Valhall'Art" "Quentin Valhall'Art" "Antoine Valhall'Art" "Lalie Valhall'Art" "Gaspard Valhall'Art" "Olivier" "Tom Valhall'Art" "Ayoub Horn" "Titouan Horn" "Thomas Valhall'Art" "Yohann Horn" "Marie Mist" "Manon Horn" "Chloé Horn" "Ahmed Dragons"
 }
 # Promo 2024
 {
 rank=same
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoe Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist"
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoe Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art"
 }
 # Promo 2025
 {
 rank=same
+"Henri" "Clara"
 }
-
-# Touchez pas à cette partie, c'est pour la couleur, c'est géré automatiquement
-
     "Bastien Apo"[fillcolor=""]
     "Alice Diabo"[fillcolor="#ff4d5c"]
     "Daniel Valar"[fillcolor="#4b488c"]
@@ -272,6 +273,7 @@ rank=same
     "Marie Mist"[fillcolor="#9e0e40"]
     "Manon Horn"[fillcolor="#f2be00"]
     "Chloé Horn"[fillcolor="#f2be00"]
+    "Ahmed Dragons"[fillcolor="#3700ff"]
     "Lucie Sharks"[fillcolor="#bdabda"]
     "Adrien Gold"[fillcolor="#ffffff"]
     "Flavien Sharks"[fillcolor="#bdabda"]
@@ -294,4 +296,8 @@ rank=same
     "Emerick Katan'Art"[fillcolor="#ffcba4"]
     "Cyriane Sharks"[fillcolor="#bdabda"]
     "Théo Mist"[fillcolor="#9e0e40"]
+    "Hadrien Snow"[fillcolor=""]
+    "Alan Katan'art"[fillcolor="#ffcba4"]
+    "Henri"[fillcolor=""]
+    "Clara"[fillcolor=""]
 }

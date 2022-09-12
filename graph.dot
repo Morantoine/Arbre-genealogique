@@ -31,7 +31,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
 "Quentin Valhall'Art" -> "Olivier Katan'Art"
-"Nathan Valhall'Art" -> {"Arthur Gold", "Hippolyte Gold", "Titouan Sharks", "Théo Mist", "Hadrien Snow", "Alan Katan'art"}
+"Nathan Valhall'Art" -> {"Arthur Gold Rosa", "Hippolyte Gold", "Titouan Sharks", "Théo Mist", "Hadrien Snow", "Alan Katan'art"}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"}
 "Antoine GC Lord" -> {"Victor Abso", "Pierre Abso", "Hugo Abso", "Juliette Koh", "Maxime Koh", "Baptiste Koh", "Barranco Jones", "Mathieu Enigm'Abso", "Tiphaine Enigm'Art", "Flavien Sharks"}
@@ -83,13 +83,14 @@ Olivier -> "Camille Katan'Art"
 "Vivien Clint" -> {"Joséphine Enigm'Art", "Barranco Jones"}
 "Christophe Enigm'Art" -> {"Timothée Stan'Pulsar", "Lubin Pulsar", "Audrey Pulsar"}
 "Timothée Stan'Pulsar" -> {"Théo Mist"}
-"Chloé Horn" -> {"Théo Mist", "Jorge Mist"}
+"Chloé Horn" -> {"Théo Mist", "Jorge Mist", "Titouan Sharks", "Arthur Gold Rosa"}
 "Séréna Enigm'Art" -> {"Jérémy Pulsar"}
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
-"Jorge Mist" -> {"Henri", "Clara"}
-"Flavien Sharks" -> {"Henri"}
+"Jorge Mist" -> {"Henri", "Clara", "Alys"}
+"Virgile Sharks" -> {"Alys"}
+"Flavien Sharks" -> {"Henri", "Anaïs", "Sarah"}
 
 
 ##################################
@@ -153,13 +154,14 @@ rank=same
 # Promo 2024
 {
 rank=same
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoe Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art"
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoe Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold Rosa" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art"
 }
 # Promo 2025
 {
 rank=same
-"Henri" "Clara"
+"Henri" "Clara" "Anaïs" "Sarah" "Alys"
 }
+#Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
     "Alice Diabo"[fillcolor="#ff4d5c"]
     "Daniel Valar"[fillcolor="#4b488c"]
@@ -281,7 +283,7 @@ rank=same
     "Nils Mist"[fillcolor="#9e0e40"]
     "Hippolyte Gold"[fillcolor="#ffffff"]
     "Titouan Sharks"[fillcolor="#bdabda"]
-    "Arthur Gold"[fillcolor="#ffffff"]
+    "Arthur Gold Rosa"[fillcolor="#ffffff"]
     "Olivier Katan'Art"[fillcolor="#ffcba4"]
     "Paul Sharks"[fillcolor="#bdabda"]
     "Matthieu Sharks"[fillcolor="#bdabda"]
@@ -300,4 +302,5 @@ rank=same
     "Alan Katan'art"[fillcolor="#ffcba4"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
+    "Alys"[fillcolor=""]
 }

@@ -28,6 +28,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Titouan Horn" -> {"Jorge Mist"}
 "Anna Horn" -> {"Nils Mist"}
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
+"Lucie Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
 "Quentin Valhall'Art" -> "Olivier Katan'Art"
@@ -91,6 +92,8 @@ Olivier -> "Camille Katan'Art"
 "Jorge Mist" -> {"Henri", "Clara", "Alys"}
 "Virgile Sharks" -> {"Alys"}
 "Flavien Sharks" -> {"Henri", "Anaïs", "Sarah"}
+"Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
+"Matthieu Sharks" -> {"Lili"}
 
 
 ##################################
@@ -159,7 +162,7 @@ rank=same
 # Promo 2025
 {
 rank=same
-"Henri" "Clara" "Anaïs" "Sarah" "Alys"
+"Henri" "Clara" "Anaïs" "Sarah" "Alys" "Nicolas" "Flo3" 
 }
 #Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
@@ -303,4 +306,6 @@ rank=same
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
     "Alys"[fillcolor=""]
+    "Nicolas"[fillcolor=""]
+    "Flo3"[fillcolor=""]
 }

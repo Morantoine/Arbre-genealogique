@@ -30,7 +30,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Lucie Lord-Clint" -> {"Joséphine Enigm'Art", "Séréna Enigm'Art", "Tiphaine Enigm'Art", "Johyn Enigm'Abso", "Christophe Enigm'Art"}
 "Lucie Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
-"Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks"}
+"Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks", "Nils Mist"}
 "Quentin Valhall'Art" -> "Olivier Katan'Art"
 "Nathan Valhall'Art" -> {"Arthur Gold Rosa", "Hippolyte Gold", "Titouan Sharks", "Théo Mist", "Hadrien Snow", "Alan Katan'art"}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
@@ -89,11 +89,11 @@ Olivier -> "Camille Katan'Art"
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoe Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
-"Jorge Mist" -> {"Henri", "Clara", "Alys"}
+"Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette"}
 "Virgile Sharks" -> {"Alys"}
 "Flavien Sharks" -> {"Henri", "Anaïs", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
-"Matthieu Sharks" -> {"Lili"}
+"Matthieu Sharks" -> {"Lili", "Camille"}
 
 
 ##################################

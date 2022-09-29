@@ -91,9 +91,11 @@ Olivier -> "Camille Katan'Art"
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
 "Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette"}
 "Virgile Sharks" -> {"Alys"}
-"Flavien Sharks" -> {"Henri", "Anaïs", "Sarah"}
+"Flavien Sharks" -> {"Henri", "Anaïs1", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Matthieu Sharks" -> {"Lili", "Camille"}
+"Clovis Sharks" -> {"Anaïs2"}
+"Paul Sharks" -> {"Anaïs2"}
 
 
 ##################################
@@ -162,7 +164,7 @@ rank=same
 # Promo 2025
 {
 rank=same
-"Henri" "Clara" "Anaïs" "Sarah" "Alys" "Nicolas" "Flo3" 
+"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2"
 }
 #Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
@@ -297,7 +299,7 @@ rank=same
     "Gabriel Katan'Art"[fillcolor="#ffcba4"]
     "Jorge Mist"[fillcolor="#9e0e40"]
     "Camille Katan'Art"[fillcolor="#ffcba4"]
-    "Anaïs Katan'Art"[fillcolor="#ffcba4"]
+    "Anaïs Katan'Art"[fillcolor="#ffcba4"][label="Anaïs"]
     "Emerick Katan'Art"[fillcolor="#ffcba4"]
     "Cyriane Sharks"[fillcolor="#bdabda"]
     "Théo Mist"[fillcolor="#9e0e40"]
@@ -305,7 +307,9 @@ rank=same
     "Alan Katan'art"[fillcolor="#ffcba4"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
+    "Anaïs1"[fillcolor=""][label="Anaïs"]
     "Alys"[fillcolor=""]
     "Nicolas"[fillcolor=""]
     "Flo3"[fillcolor=""]
+    "Anaïs2"[fillcolor=""][label="Anaïs"]
 }

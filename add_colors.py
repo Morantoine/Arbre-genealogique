@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from unicodedata import name
+import re
 
 
 def get_liste_noms():
@@ -57,7 +57,7 @@ def check_if_node(string):
     return False
 
 
-def new_node(nom, color_list, exceptions):
+def new_node(nom, color_list, exceptions, same_names_list):
     """Crée le node avec les bonnes couleurs"""
     line = '    "{}"'.format(nom)
     names_sorted = list(exceptions.keys())
@@ -69,6 +69,9 @@ def new_node(nom, color_list, exceptions):
         nom.replace(exceptions[exception], exceptions[exception])
     nom = nom.split()
     line += '[fillcolor="{}"]'.format(couleur(nom[1:], color_list))
+    nom[0] = ''.join([c for c in nom[0] if not c.isdigit()])
+    if nom[0] in same_names_list:
+        line += '[label="{}"]'.format(nom[0])
     return line
 
 
@@ -143,7 +146,6 @@ def couleur(liste_noms, color_list):
         nom = nom.lower()
         list, color_hex, local_dico = longest_list_color(nom, local_dico)
         while len(color_hex) > 0:
-            #print("COULEUR TROUVÉE : " + color_hex)
             color += color_hex + ":"
             list, color_hex, local_dico = longest_list_color(nom, local_dico)
 
@@ -153,11 +155,12 @@ def couleur(liste_noms, color_list):
 
 
 def main():
+    same_names_list = ["Anaïs"]
     delete_old_nodes()
     color_list, exceptions = lists_init()
     for nom in get_liste_noms():
         if not check_if_node(nom):
-            insert_line(new_node(nom, color_list, exceptions))
+            insert_line(new_node(nom, color_list, exceptions, same_names_list))
 
 
 if __name__ == "__main__":

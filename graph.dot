@@ -95,7 +95,9 @@ Olivier -> "Camille Katan'Art"
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Matthieu Sharks" -> {"Lili", "Camille"}
 "Clovis Sharks" -> {"Anaïs2"}
-"Paul Sharks" -> {"Anaïs2"}
+"Paul Sharks" -> {"Anaïs2", "Melvin"}
+"Gabriel Katan'Art" -> {"Julien", "Melvin"}
+
 
 
 ##################################
@@ -164,7 +166,7 @@ rank=same
 # Promo 2025
 {
 rank=same
-"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili"
+"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin"
 }
 #Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
@@ -315,4 +317,6 @@ rank=same
     "Mariette"[fillcolor=""]
     "Paco"[fillcolor=""]
     "Lili"[fillcolor=""]
+    "Julien"[fillcolor=""]
+    "Melvin"[fillcolor=""]
 }

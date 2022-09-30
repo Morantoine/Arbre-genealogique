@@ -1,3 +1,5 @@
 #!/usr/bin/bash
 ./add_colors.py
 dot graph.dot -T svg -o graph.svg
+./purple_version.py
+dot graph_purple.dot -T svg -o graph.svg

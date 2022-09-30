@@ -40,15 +40,15 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"}
 "Isabelle Diabo / SurréArtList" -> {"Thomas Malaf Trooper", "Théophile Trooper", "Nathan Trooper"}
 "Tiphaine Enigm'Art" -> {"Elias Pulsar", "Leopold Pulsar", "Sébastien Legends", "Élodie Horn"}
-"Elias Pulsar" -> Olivier
+"Elias Pulsar" -> "Olivier"
 "Élodie Horn" -> {"Adrien Gold"}
-Olivier -> "Camille Katan'Art"
+"Olivier" -> "Camille Katan'Art"
 "Robin Horn" -> {"Lucie Sharks", "Adrien Gold"}
 "Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art", "Mohammed Enigm'Art"}
 "Alex Enigm'Abso" -> {"Maxime Pulsar"}
 "Vincent Pulsar" -> {"Nathan Valhall'Art", "Thomas Valhall'Art", "Mathilde Valhall'Art", "Anna Horn"}
 "Mathilde Valhall'Art" -> {"Paul Sharks"}
-"Théophile Trooper" ->{"Alexandre Spark", "Lucas Bluff","Sam Ghib'n'Bluff","Barzola Bluff", "Yoann Bluff"}
+"Théophile Trooper" -> {"Alexandre Spark", "Lucas Bluff","Sam Ghib'n'Bluff","Barzola Bluff", "Yoann Bluff"}
 "Yoann Bluff" -> {"Guilhaume Lord", "Nounours Atlas", "Vivien Clint", "Guillaume Atlas"}
 "Hugo Bluff" -> {"Antoine GC Lord", "Antoine Lord Murat", "Gloria Lord", "Matisse Lord", "Vincent Aero"}
 "Thomas Malaf Trooper" -> {"Milou Bluff Mascotte", "Barzola Bluff"}
@@ -59,7 +59,7 @@ Olivier -> "Camille Katan'Art"
 "Milou Bluff Mascotte" -> "Corentin Clint"
 "Gloria Lord" -> {"Amandine Koh", "Mathieu Enigm'Abso", "Séréna Enigm'Art"}
 "Jean Valar" -> {"Lucas Chap", "Théophile Trooper"}
-"Barzola Bluff"->Erwan
+"Barzola Bluff" -> "Erwan"
 "Bastien Apo" -> "Alice Diabo"
 "Daniel Valar" -> {"Julien Camus Trooper", "Léa Chill"}
 "Paul Trooper Moune" -> {"Ben Spark", "Hugo Bluff"}
@@ -97,6 +97,8 @@ Olivier -> "Camille Katan'Art"
 "Clovis Sharks" -> {"Anaïs2"}
 "Paul Sharks" -> {"Anaïs2", "Melvin"}
 "Gabriel Katan'Art" -> {"Julien", "Melvin"}
+"Anaïs Katan'Art" -> {"Gavril", "Tom"}
+"Lucas Sharks" -> {"Charlotte" "Lou" "Amaël"}
 
 
 
@@ -166,7 +168,7 @@ rank=same
 # Promo 2025
 {
 rank=same
-"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin"
+"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Gavril" "Amaël" "Lou" "Charlotte"
 }
 #Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
@@ -319,4 +321,8 @@ rank=same
     "Lili"[fillcolor=""]
     "Julien"[fillcolor=""]
     "Melvin"[fillcolor=""]
+    "Gavril"[fillcolor=""]
+    "Amaël"[fillcolor=""]
+    "Lou"[fillcolor=""]
+    "Charlotte"[fillcolor=""]
 }

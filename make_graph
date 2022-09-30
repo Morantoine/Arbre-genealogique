@@ -2,4 +2,4 @@
 ./add_colors.py
 dot graph.dot -T svg -o graph.svg
 ./purple_version.py
-dot graph_purple.dot -T svg -o graph.svg
+dot graph_purple.dot -T svg -o graph_purple.svg

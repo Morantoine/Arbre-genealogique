@@ -25,6 +25,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Quentin Valhall'Art" -> "Olivier Katan'Art"
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"}
 "Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"}
+"Thaïs Dice" -> {"Théo Gold"}
 "Robin Horn" -> {"Lucie Sharks", "Adrien Gold"}
 "Vincent Valhall'Art" -> {"Flavien Sharks", "Zoé Mist"}
 "Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette"}
@@ -81,7 +82,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Thaïs Dice" "Robin Horn" "Vincent Valhall'Art" "Quentin Valhall'Art" "Antoine Valhall'Art" "Lalie Valhall'Art" "Gaspard Valhall'Art"}
 # Promo 2024
 {
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist"}
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Théo Gold"}
 # Promo 2025
 {
 "Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Charlotte" "Clément" "Emélie" "Antoine" "Robin"}
@@ -109,6 +110,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
     "Clovis Sharks"[fillcolor="#bdabda"]
     "Gabriel Katan'Art"[fillcolor="#ffcba4"]
     "Jorge Mist"[fillcolor="#9e0e40"]
+    "Théo Gold"[fillcolor="#ffffff"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
     "Anaïs1"[fillcolor=""][label="Anaïs"]

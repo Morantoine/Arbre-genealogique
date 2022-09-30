@@ -42,6 +42,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Tiphaine Enigm'Art" -> {"Elias Pulsar", "Leopold Pulsar", "Sébastien Legends", "Élodie Horn"}
 "Elias Pulsar" -> "Olivier"
 "Élodie Horn" -> {"Adrien Gold"}
+"Thaïs Dice" -> {"Théo Gold"}
 "Olivier" -> "Camille Katan'Art"
 "Robin Horn" -> {"Lucie Sharks", "Adrien Gold"}
 "Manon Storm" -> {"Alex Enigm'Abso", "Séréna Enigm'Art", "Mohammed Enigm'Art"}
@@ -165,7 +166,7 @@ rank=same
 # Promo 2024
 {
 rank=same
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold Rosa" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art"
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold Rosa" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art" "Théo Gold"
 }
 # Promo 2025
 {
@@ -311,6 +312,7 @@ rank=same
     "Théo Mist"[fillcolor="#9e0e40"]
     "Hadrien Snow"[fillcolor=""]
     "Alan Katan'art"[fillcolor="#ffcba4"]
+    "Théo Gold"[fillcolor="#ffffff"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
     "Anaïs1"[fillcolor=""][label="Anaïs"]

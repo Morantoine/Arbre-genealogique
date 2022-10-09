@@ -91,7 +91,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoé Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
 "Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette", "Lili"}
-"Virgile Sharks" -> {"Alys", "Clément"}
+"Virgile Sharks" -> {"Alys", "Clément", "Adam", "Laurine", "Gaétan"}
 "Flavien Sharks" -> {"Henri", "Anaïs1", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Matthieu Sharks" -> {"Lili", "Camille"}
@@ -103,6 +103,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Nils Mist" -> {"Clément"}
 "Zoé Mist" -> {"Robin", "Antoine", "Flo3", "Emélie"}
 "Adrien Gold" -> {"Charlotte"}
+"Théo Gold" -> {"Mariette"}
 
 
 ##################################
@@ -166,12 +167,12 @@ rank=same
 # Promo 2024
 {
 rank=same
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold Rosa" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art" "Théo Gold"
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Hippolyte Gold" "Titouan Sharks" "Arthur Gold Rosa" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Camille Katan'Art" "Anaïs Katan'Art" "Emerick Katan'Art" "Cyriane Sharks" "Théo Mist" "Hadrien Snow" "Alan Katan'art" "Théo Gold" "Mathis Mist"
 }
 # Promo 2025
 {
 rank=same
-"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Gavril" "Amaël" "Lou" "Charlotte" "Clément" "Emélie" "Antoine" "Robin"
+"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Gavril" "Amaël" "Lou" "Charlotte" "Clément" "Emélie" "Antoine" "Robin" "Adam" "Gaétan" "Laurine"
 }
 #Pas besoin de toucher ici, le programme s'en charge
     "Bastien Apo"[fillcolor=""]
@@ -313,6 +314,7 @@ rank=same
     "Hadrien Snow"[fillcolor=""]
     "Alan Katan'art"[fillcolor="#ffcba4"]
     "Théo Gold"[fillcolor="#ffffff"]
+    "Mathis Mist"[fillcolor="#9e0e40"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
     "Anaïs1"[fillcolor=""][label="Anaïs"]
@@ -330,4 +332,7 @@ rank=same
     "Lou"[fillcolor=""]
     "Charlotte"[fillcolor=""]
     "Emélie"[fillcolor=""]
+    "Adam"[fillcolor=""]
+    "Gaétan"[fillcolor=""]
+    "Laurine"[fillcolor=""]
 }

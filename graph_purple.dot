@@ -29,7 +29,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Robin Horn" -> {"Lucie Sharks", "Adrien Gold"}
 "Vincent Valhall'Art" -> {"Flavien Sharks", "Zoé Mist"}
 "Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette", "Lili"}
-"Virgile Sharks" -> {"Alys", "Clément"}
+"Virgile Sharks" -> {"Alys", "Clément", "Adam", "Laurine", "Gaétan"}
 "Flavien Sharks" -> {"Henri", "Anaïs1", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Matthieu Sharks" -> {"Lili", "Camille"}
@@ -40,6 +40,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Nils Mist" -> {"Clément"}
 "Zoé Mist" -> {"Robin", "Antoine", "Flo3", "Emélie"}
 "Adrien Gold" -> {"Charlotte"}
+"Théo Gold" -> {"Mariette"}
 
 
 ##################################
@@ -82,10 +83,10 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Thaïs Dice" "Robin Horn" "Vincent Valhall'Art" "Quentin Valhall'Art" "Antoine Valhall'Art" "Lalie Valhall'Art" "Gaspard Valhall'Art"}
 # Promo 2024
 {
-"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Théo Gold"}
+"Lucie Sharks" "Adrien Gold" "Flavien Sharks" "Zoé Mist" "Nils Mist" "Olivier Katan'Art" "Paul Sharks" "Matthieu Sharks" "Lucas Sharks" "Logan Sharks" "Virgile Sharks" "Clovis Sharks" "Gabriel Katan'Art" "Jorge Mist" "Théo Gold" "Mathis Mist"}
 # Promo 2025
 {
-"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Amaël" "Lou" "Charlotte" "Clément" "Emélie" "Antoine" "Robin"}
+"Henri" "Clara" "Anaïs1" "Sarah" "Alys" "Nicolas" "Flo3" "Anaïs2" "Camille" "Thomas" "Mariette" "Paco" "Lili" "Julien" "Melvin" "Amaël" "Lou" "Charlotte" "Clément" "Emélie" "Antoine" "Robin" "Adam" "Gaétan" "Laurine"}
 #Pas besoin de toucher ici, le programme s'en charge
     "Yanis Pulsar"[fillcolor="#a300a3"]
     "Maxime Pulsar"[fillcolor="#a300a3"]
@@ -111,6 +112,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
     "Gabriel Katan'Art"[fillcolor="#ffcba4"]
     "Jorge Mist"[fillcolor="#9e0e40"]
     "Théo Gold"[fillcolor="#ffffff"]
+    "Mathis Mist"[fillcolor="#9e0e40"]
     "Henri"[fillcolor=""]
     "Clara"[fillcolor=""]
     "Anaïs1"[fillcolor=""][label="Anaïs"]
@@ -127,4 +129,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
     "Lou"[fillcolor=""]
     "Charlotte"[fillcolor=""]
     "Emélie"[fillcolor=""]
+    "Adam"[fillcolor=""]
+    "Gaétan"[fillcolor=""]
+    "Laurine"[fillcolor=""]
 }

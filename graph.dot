@@ -90,7 +90,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Clément Enigm'Art" -> {"Jérémy Pulsar"}
 "Jérémy Pulsar" -> {"Yohann Horn", "Titouan Horn", "Lalie Valhall'Art", "Ayoub Horn", "Zoé Mist", "Marie Mist"}    
 "Lucie Pulsar" -> {"Thomas Valhall'Art", "Hugo Dragons", "Ahmed Dragons"}
-"Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette"}
+"Jorge Mist" -> {"Henri", "Clara", "Alys", "Paco", "Mariette", "Lili"}
 "Virgile Sharks" -> {"Alys", "Clément"}
 "Flavien Sharks" -> {"Henri", "Anaïs1", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
@@ -99,7 +99,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Paul Sharks" -> {"Anaïs2", "Melvin"}
 "Gabriel Katan'Art" -> {"Julien", "Melvin"}
 "Anaïs Katan'Art" -> {"Gavril", "Tom"}
-"Lucas Sharks" -> {"Charlotte" "Lou" "Amaël"}
+"Lucas Sharks" -> {"Charlotte", "Lou", "Amaël", "Henri"}
 "Nils Mist" -> {"Clément"}
 "Zoé Mist" -> {"Robin", "Antoine", "Flo3", "Emélie"}
 "Adrien Gold" -> {"Charlotte"}

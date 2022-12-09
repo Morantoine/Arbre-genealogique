@@ -95,7 +95,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Flavien Sharks" -> {"Henri", "Anaïs1", "Sarah"}
 "Logan Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Matthieu Sharks" -> {"Lili", "Camille"}
-"Clovis Sharks" -> {"Anaïs2"}
+"Clovis Sharks" -> {"Anaïs2", "Amaël"}
 "Paul Sharks" -> {"Anaïs2", "Melvin"}
 "Gabriel Katan'Art" -> {"Julien", "Melvin"}
 "Anaïs Katan'Art" -> {"Gavril", "Tom"}

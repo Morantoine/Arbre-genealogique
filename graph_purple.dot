@@ -18,11 +18,11 @@ digraph G {
 
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"];
-"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks"}
+"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks", "Amaël"}
 "Gaspard Valhall'Art" -> {"Logan Sharks", "Jorge Mist", "Clovis Sharks", "Gabriel Katan'Art"}
 "Lucie Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks", "Nils Mist", "Mathis Mist"}
-"Quentin Valhall'Art" -> "Olivier Katan'Art"
+"Quentin Valhall'Art" -> {"Olivier Katan'Art", "Mathis Mist"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"}
 "Yanis Pulsar" -> {"Lalie Valhall'Art", "Robin Horn", "Vincent Valhall'Art", "Thaïs Dice"}
 "Thaïs Dice" -> {"Théo Gold"}

@@ -21,7 +21,7 @@ digraph G {
 
 node[color = "#c1c9e2", style=filled, shape=rectangle];
 graph [pad="0.5", nodesep="1", ranksep="2"];
-"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks"}
+"Antoine Valhall'Art" -> {"Jorge Mist", "Logan Sharks", "Matthieu Sharks", "Paul Sharks", "Amaël"}
 "Thomas Valhall'Art" -> {"Anaïs Katan'Art", "Camille Katan'Art", "Emerick Katan'Art"}
 "Gaspard Valhall'Art" -> {"Logan Sharks", "Jorge Mist", "Clovis Sharks", "Gabriel Katan'Art"}
 "Ayoub Horn" -> {"Jorge Mist", "Théo Mist"}
@@ -31,7 +31,7 @@ graph [pad="0.5", nodesep="1", ranksep="2"];
 "Lucie Sharks" -> {"Nicolas", "Thomas", "Flo3"}
 "Léa Chill" -> {"Lucie Lord-Clint", "Sam Ghib'n'Bluff", "Gabriel"}
 "Lalie Valhall'Art" -> {"Virgile Sharks", "Lucas Sharks", "Logan Sharks", "Nils Mist", "Mathis Mist"}
-"Quentin Valhall'Art" -> "Olivier Katan'Art"
+"Quentin Valhall'Art" -> {"Olivier Katan'Art", "Mathis Mist"}
 "Nathan Valhall'Art" -> {"Arthur Gold Rosa", "Hippolyte Gold", "Titouan Sharks", "Théo Mist", "Hadrien Snow", "Alan Katan'art"}
 "Alice Diabo" -> {"Léa Chill", "Paul Trooper Moune", "Théophile Trooper", "Gladys Chill"}
 "Maxime Pulsar" -> {"Lalie Valhall'Art", "Quentin Valhall'Art", "Antoine Valhall'Art", "Gaspard Valhall'Art", "Clovis Sharks"}
